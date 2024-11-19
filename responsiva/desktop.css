@@ -1,0 +1,11 @@
+@media all and (min-width : 941px){ 
+    /*SECCION BARRA DE NAVEGACION */
+        .nav-enlace{
+            display: inline-block;
+            background: salmon;
+            color: #fff;
+            padding: 10px 30px;
+            text-decoration: none;
+        }
+    
+    } 

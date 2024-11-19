@@ -1,0 +1,33 @@
+@media all and (min-width : 941px){
+    #containerGrid{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        width: 100%;
+        height: 100%;
+        padding: 16px;
+    }
+    
+    #containerGrid > div > img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #containerGrid > div{
+        width: 100%;
+        height: auto;
+    }
+
+    #img1{
+        background-image: url('caballos/caballo2.jpg');
+    }
+    
+/* NAVEGACION */
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+}

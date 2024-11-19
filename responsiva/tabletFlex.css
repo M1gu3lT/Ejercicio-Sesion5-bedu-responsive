@@ -1,0 +1,28 @@
+@media all and (min-width : 641px) and (max-width : 940px){
+    #containerFlex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        padding: 8px;
+    }
+    
+    #containerFlex > div {
+        width: calc(33% - 8px); 
+        margin-bottom: 8px; 
+    }
+    
+    #containerFlex > div > img {
+        width: 100%; 
+        height: auto; 
+    }
+
+/* NAVEGACION */
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+}

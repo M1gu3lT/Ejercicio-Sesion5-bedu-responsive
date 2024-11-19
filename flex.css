@@ -1,0 +1,17 @@
+#containerFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+#containerFlex > div > img {
+    width: 100%;
+    height: 100%;
+}
+
+#containerFlex > div {
+    width: 100%;
+    height: auto;
+}
+
